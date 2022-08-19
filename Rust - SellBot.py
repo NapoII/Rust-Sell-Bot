@@ -64,7 +64,7 @@ try:
 except:
     max_Sec_to_wait = False
 
-Bot_aktiv = read_config(config_dir, "Telegram", "Bot_aktiv")
+Bot_aktiv = str_to_bool(read_config(config_dir, "Telegram", "Bot_aktiv"))
 CLINT_ID_imgur = read_config(config_dir, "Imgur", "CLINT_ID_imgur")
 Telegram_token = read_config(config_dir, "Telegram", "Telegram_token")
 chat_Id = read_config(config_dir, "Telegram", "chat_Id")
@@ -95,6 +95,7 @@ Quit = False
 if_Rust_aktiv()
 
 print ("rdy ! ")
+
 while True:
     if keyboard.is_pressed(hotkey):
         log("Sell Bot Start!")
@@ -253,7 +254,7 @@ while True:
                 pyautogui.moveTo(1835+(random.randrange(10)), 830+(random.randrange(10)), Random_num, pyautogui.easeInBounce)
 
             if max_Sec_to_wait == False:
-                pass
+                break
             else:
                 random_num = (random.randrange(max_Sec_to_wait))+1
                 log ( "\nBot save Stop für "+str(random_num)+" sec")
