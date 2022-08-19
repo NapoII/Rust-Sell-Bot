@@ -6,12 +6,11 @@ import webbrowser
 webbrowser.open("https://core.telegram.org/bots#3-how-do-i-create-a-bot")
 pyautogui.alert(text='Zuerst musst du dir einen Telegram Bot erstellen\n und dir den Token zu deinem Bot Kopieren!', title='Rust - SellBot - Telegram Set-Up', button='Lets Go!')
 
+file_path = os.path.dirname(sys.argv[0])
+config_dir = file_path +"/config.ini"
 
-Telegram_token = "5357034455:AAE785813q8L1np9oBoq0S6Vmyr9MB2F_oU"
-config_dir = "E:\Pr0grame\My_ Pyhton\work_in_progress\Rust - SellBot\config.ini"
-
-Token = pyautogui.prompt(text='Gib den Telegram Bot Token hier ein:', title='Rust - SellBot - Telegram Set-Up' , default='5357034455:AAE785813q8L1np9oBoq0S6Vmyr9MB2F_oU')
-write_config(config_dir, "Telegram", "Telegramm_token", str(Token))
+Telegram_token = pyautogui.prompt(text='Gib den Telegram Bot Token hier ein:', title='Rust - SellBot - Telegram Set-Up' , default="")
+write_config(config_dir, "Telegram", "Telegram_token", str(Telegram_token))
 
 pyautogui.alert(text='Schreibe deinen Telegram Bot nun an mit: !id . Danach drücke Hier auf "Weiter". ', title='Rust - SellBot - Telegram Set-Up', button='Weiter')
 
@@ -36,8 +35,8 @@ write_config(config_dir, "Telegram", "chat_Id", str(Chat_ID))
 webbrowser.open("https://imgur.com/account/settings/apps")
 pyautogui.alert(text='Erstelle nun ein Imgur Token. ', title='Rust - SellBot - Telegram Set-Up', button='Weiter')
 
-CLINT_ID_imgur = pyautogui.prompt(text='Gib die Imgur Client ID hier ein:', title='Rust - SellBot - Telegram Set-Up' , default='fb9b5757ec16f06')
-CLINT_Secret_imgur = pyautogui.prompt(text='Gib den Imgur Client Secret hier ein:', title='Rust - SellBot - Telegram Set-Up' , default='c8eadb8777f5bbebf4c408fa039420e18e153cc8')
+CLINT_ID_imgur = pyautogui.prompt(text='Gib die Imgur Client ID hier ein:', title='Rust - SellBot - Telegram Set-Up' , default='')
+CLINT_Secret_imgur = pyautogui.prompt(text='Gib den Imgur Client Secret hier ein:', title='Rust - SellBot - Telegram Set-Up' , default='')
 
 
 write_config(config_dir, "Imgur", "CLINT_ID_imgur", str(CLINT_ID_imgur))
@@ -46,7 +45,7 @@ write_config(config_dir, "Imgur", "CLINT_Secret_imgur", str(CLINT_Secret_imgur))
 
 pyautogui.alert(text='Fertig der Telegram Bot wurde eingerichtet. ', title='Rust - SellBot - Telegram Set-Up', button='Weiter')
 
-TeleBot_Say("Fertig der Telegram Bot wurde eingerichtet.\n schreibe  /scr  um die Bildfunkzion zu testen.", Chat_ID, Token)
+TeleBot_Say("Fertig der Telegram Bot wurde eingerichtet.\n schreibe  /scr  um die Bildfunkzion zu testen.", Chat_ID, Telegram_token)
 chat_date_id = 0
 chat_date_id_ref = 1
 
@@ -63,11 +62,11 @@ while True:
         chat_date_id_ref = Last_chat_Data[2]
         break
     else:
-        TeleBot_Say("Schreibe nun  /scr  in den Telegram Chat um die Bild funktzion zu Testen! ", Chat_ID, Token)
+        TeleBot_Say("Schreibe nun  /scr  in den Telegram Chat um die Bild funktzion zu Testen! ", Chat_ID, Telegram_token)
         pyautogui.alert(text='Schreibe nun  /scr  in den Telegram Chat um die Bild funktzion zu Testen! ', title='Rust - SellBot - Telegram Set-Up', button='Weiter')
 
 
-TeleBot_Say(" Der Telegram Bot ist einsatzbereit für den Rust Sell Bot", Chat_ID, Token)
+TeleBot_Say(" Der Telegram Bot ist einsatzbereit für den Rust Sell Bot", Chat_ID, Telegram_token)
 write_config(config_dir, "Telegram", "Bot_aktiv", "True")
 pyautogui.alert(text='Fertig!. ', title='Rust - SellBot - Telegram Set-Up', button='Weiter')
 
