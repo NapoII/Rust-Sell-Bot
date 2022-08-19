@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README/bannerf.png?token=GHSAT0AAAAAABXYVRIKZK7FD4F5H2RJJ53SYX7WZSQ" height="500px" />](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip)
+[<img src="https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README/bannerf.png?token=GHSAT0AAAAAABXYVRILNVUOQ7OWGWX5XDPSYX7W6UQ" height="500px" />](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip)
 
 [<img src="https://github.com/NapoII/Rust-Sell-Bot/blob/main/README/phone.png?raw=true" />](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip)
 
