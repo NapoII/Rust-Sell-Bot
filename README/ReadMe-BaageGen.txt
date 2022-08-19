@@ -1,0 +1,1 @@
+https://forthebadge.com/generator/?plabel=Telegram_Bot_einrichten&slabel=.py&pbg=%23CE422B&sbg=%231E2020&ptext=%231F1F1F&stext=%23F6EAE0

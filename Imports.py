@@ -58,7 +58,7 @@ f0I = """
 - created by Napo_II
 - """ + v + """
 - python 2.7
-- https://github.com/NapoII/
+- https://github.com/NapoII/Rust-Sell-Bot
 
 """
 ####################################################################################################

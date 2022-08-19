@@ -10,7 +10,7 @@ f0 =  """
 - created by Napo_II
 - """ + v + """
 - python 2.7
-- https://github.com/NapoII/
+- https://github.com/NapoII/Rust-Sell-Bot
 
 """
 print(" \nProgramm wird gestartet ...")
