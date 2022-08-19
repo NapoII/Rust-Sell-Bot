@@ -1,2 +1,2 @@
 # Rust-Sell-Bot
- AUto Fert selling Bot with Telegram  away cheaker
+ Auto Fertilizer sell bot with Telegram away cheack
