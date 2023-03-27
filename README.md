@@ -4,11 +4,6 @@
 </a>
 </p>
 
-<center>
-
-# Rust-Sell-Bot
-</center>
-
 <p align="center">
 <a href="https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total" alt="downloads/total">
