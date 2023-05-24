@@ -1,55 +1,52 @@
-<p align="center">
-<a href="https://github.com/NapoII">
-    <img src="Readme_top.png"  alt="NapoII">
-</a>
-</p>
+[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/Readme_top.png)](https://github.com/NapoII)
 
-<p align="center">
-<a href="https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total" alt="downloads/total">
-</a>
+# Rust-Sell-Bot
 
-<a href="https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/github/repo-size/NapoII/Rust-Sell-Bot" alt="github/repo-size">
-</a>
+[![downloads/total](https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total)](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip) [![github/repo-size](https://img.shields.io/github/repo-size/NapoII/Rust-Sell-Bot)](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip) [![github/license](https://img.shields.io/github/license/NapoII/Rust-Sell-Bot)](https://github.com/NapoII/Rust-Sell-Bot/blob/main/LICENSE) [![github/last-commit](https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total)](https://img.shields.io/github/issues/NapoII/Rust-Sell-Bot?style=plastic) [![github/issues_open](https://img.shields.io/github/issues/NapoII/Rust-Sell-Bot?style=plastic)](https://img.shields.io/github/issues-raw/NapoII/Rust-Sell-Bot) [![github/stars](https://img.shields.io/github/stars/NapoII/Rust-Sell-Bot?style=social)](https://github.com/NapoII/Rust-Sell-Bot/stargazers) [![discord](https://img.shields.io/discord/190307701169979393)](https://discord.gg/knTKtKVfnr)
 
-<a href="https://github.com/NapoII/Rust-Sell-Bot/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/NapoII/Rust-Sell-Bot" alt="github/license">
-</a>
+Coming soon...
+## 📝 Table of Contents
++ [Demo / Working](#demo)
++ [Install](#usage)
++ [How it works](#Use)
++ [Lizenz](#Lizenz)
+## 🎥 Demo / Working <a name = "demo"></a>
+[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/phone.png)](https://github.com/NapoII)
 
-<a href="https://github.com/NapoII/Rust-Sell-Bot/actions">
-    <img src="https://img.shields.io/github/last-commit/NapoII/Rust-Sell-Bot" alt="github/last-commit">
-</a>
-
-<a href="https://github.com/NapoII/Rust-Sell-Bot/issues">
-    <img src="https://img.shields.io/github/issues/NapoII/Rust-Sell-Bot?style=plastic" alt="github/issues">
-</a>
-
-<a href="https://github.com/NapoII/Rust-Sell-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/NapoII/Rust-Sell-Bot?style=social" alt="github/stars">
-</a>
-
-<a href="https://discord.gg/g7EW4P65">
-    <img src="https://img.shields.io/discord/190307701169979393?style=plastic" alt="discord">
-</a>
-</p>
+## 💻 Install <a name = "usage"></a>
 
 
-## Running Locally
-
-This application requires Python 3.10.7.
-```
+```cmd
 git clone https://github.com/NapoII/Rust-Sell-Bot
 pip install -r requirements.txt
-run Code Rust-Sell-Bot.py
 ```
-[<img src="https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README/Zulassen%20Gif.gif?token=GHSAT0AAAAAABXYVRIKL5HBV3IGB266SZ3YYX7XPNQ" />](https://github.com/NapoII/Rust-Code-Raid-Bot/raw/main/Rust-Code-Raid-Bot.rar)
 
-## Example
-[<img src="https://github.com/NapoII/Rust-Sell-Bot/blob/main/README/phone.png?raw=true" />](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip)
+1.  Create a Telegram Bot if you don't already have one.
+   https://core.telegram.org/bots#3-how-do-i-create-a-bot
 
-## Lizenz
+2.  Create an Imgur Account and get a Imgur token
+    https://imgur.com/account/settings/apps
 
+3.  start Telegram_Bot_setup.py directly from the folder or run it in cmd
+
+    ```cmd
+    cd {local path of Rust-Sell-Bot}
+    python Telegram_Bot_setup.py
+    ```
+    and follow the instructions.
+
+
+## 💭 How it works <a name = "Use"></a>
+
+1.  Go to the fertiliser shop in Banditcamp
+2.  Start the Sell Bot:
+    ```cmd
+    cd {local path of Rust-Sell-Bot}
+    python Rust - SellBot.py
+    ```
+3.  follow the instructions.
+
+## 📚 Lizenz <a name = "Lizenz"></a>
 MIT License
 
 Copyright (c) 2023 NapoII
@@ -71,4 +68,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE
-</small>
+    
+<p align="center">
+<img src="https://raw.githubusercontent.com/NapoII/NapoII/233630a814f7979f575c7f764dbf1f4804b05332/Bottom.svg" alt="Github Stats" />
+</p>
