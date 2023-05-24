@@ -11,7 +11,7 @@ Coming soon...
 + [How it works](#Use)
 + [Lizenz](#Lizenz)
 ## 🎥 Demo / Working <a name = "demo"></a>
-[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/phone.png)](https://github.com/NapoII)
+[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/new/README_img/phone.png)](https://github.com/NapoII)
 
 ## 💻 Install <a name = "usage"></a>
 
