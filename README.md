@@ -1,4 +1,4 @@
-[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/Readme_top.png)](https://github.com/NapoII)
+[![github/NapoII](https://github.com/NapoII/Rust-Sell-Bot/blob/new/README_img/Readme_top.png)](https://github.com/NapoII)
 
 # Rust-Sell-Bot
 
