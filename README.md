@@ -1,20 +1,17 @@
-[![github/NapoII](https://github.com/NapoII/Rust-Sell-Bot/blob/new/README_img/Readme_top.png)](https://github.com/NapoII)
+[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/Readme_top.png)](https://github.com/NapoII)
 
 # Rust-Sell-Bot
 
 [![downloads/total](https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total)](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip) [![github/repo-size](https://img.shields.io/github/repo-size/NapoII/Rust-Sell-Bot)](https://github.com/NapoII/Rust-Sell-Bot/archive/refs/heads/main.zip) [![github/license](https://img.shields.io/github/license/NapoII/Rust-Sell-Bot)](https://github.com/NapoII/Rust-Sell-Bot/blob/main/LICENSE) [![github/last-commit](https://img.shields.io/github/downloads/NapoII/Rust-Sell-Bot/total)](https://img.shields.io/github/issues/NapoII/Rust-Sell-Bot?style=plastic) [![github/issues_open](https://img.shields.io/github/issues/NapoII/Rust-Sell-Bot?style=plastic)](https://img.shields.io/github/issues-raw/NapoII/Rust-Sell-Bot) [![github/stars](https://img.shields.io/github/stars/NapoII/Rust-Sell-Bot?style=social)](https://github.com/NapoII/Rust-Sell-Bot/stargazers) [![discord](https://img.shields.io/discord/190307701169979393)](https://discord.gg/knTKtKVfnr)
 
-The programme for the game Rust automates the sale of a specific item at the retailer. It allows the user to set a hotkey to start the selling process. The programme monitors the game screen, recognises the dealer and automatically performs the selling process. It also calculates statistics about the selling process and allows the user to interrupt the process if necessary.
-
-In the event of an anomaly in the game, the user is notified via the Telegram bot. The programme takes a screenshot of the game screen and sends it via the Telegram bot to give the user a visual insight into the situation. This allows the user to react quickly and fix any problems.
-
+Coming soon...
 ## 📝 Table of Contents
 + [Demo / Working](#demo)
 + [Install](#usage)
 + [How it works](#Use)
 + [Lizenz](#Lizenz)
 ## 🎥 Demo / Working <a name = "demo"></a>
-[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/new/README_img/phone.png)](https://github.com/NapoII)
+[![github/NapoII](https://raw.githubusercontent.com/NapoII/Rust-Sell-Bot/main/README_img/phone.png)](https://github.com/NapoII)
 
 ## 💻 Install <a name = "usage"></a>
 

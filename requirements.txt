@@ -1,2 +1,10 @@
 logNow
 configparser
+pyautogui
+keyboard
+json
+shutil
+cv2
+numpy
+pyimgur
+win32gui
