@@ -16,17 +16,17 @@ import sys
 from util.__funktion__ import *
 
 py_name = "Rust - SellBot"
-v = "0.0.1"
+v = "1.0.2"
 ####################################################################################################
 # #   Intro
 
-f0 = """ 
+f0 = """
 
 
 - """ + py_name + """
 - created by Napo_II
 - """ + v + """
-- python 2.7
+- python 3.12
 - https://github.com/NapoII/Rust-Sell-Bot
 
 """
@@ -103,7 +103,7 @@ Quit = False
 
 if_Rust_aktiv()
 
-log(f"Bot ist bereit zum start mit dem HotKey: {hotkey}")
+log(f"Bot is ready to start with the HotKey: {hotkey}")
 
 while True:
     if keyboard.is_pressed(hotkey):
@@ -136,7 +136,7 @@ while True:
 
         if Last_chat_Data[0] == "/scr" and chat_date_id != chat_date_id_ref:
 
-            log("Screanshot wurde an den Telebot gesendet.")
+            log("Screanshot was sent to the Telebot.")
             Screanshot_dir = Screanshot(
                 fullscrean, "Rust - Screen", file_path_img)
             TeleBot_img("Rust - Screen", Screanshot_dir,

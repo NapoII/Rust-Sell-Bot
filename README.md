@@ -49,6 +49,20 @@ pip install -r requirements.txt
     ```
 3.  follow the instructions.
 
+## Fix <a name="Fix"></a>
+
+If the bot starts but does not function correctly, recalibrate the regions and positions.
+
+- Open the bot and **redo the calibration** process. with `Rust_SellBot\calibrate.py`
+- Ensure all marked areas are **slightly larger** than the actual elements.
+- Verify that the **Buy button** and **Input field** positions are correctly set.
+
+Refer to the image below for a step-by-step guide:
+
+![Calibration Guide](README_img\how_to_cali.png)
+
+
+
 ## 📚 Lizenz <a name = "Lizenz"></a>
 MIT License
 
@@ -71,7 +85,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE
-    
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/NapoII/NapoII/233630a814f7979f575c7f764dbf1f4804b05332/Bottom.svg" alt="Github Stats" />
 </p>

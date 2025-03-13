@@ -4,7 +4,7 @@ pyautogui
 keyboard
 json
 shutil
-cv2
+opencv-python
 numpy
 pyimgur
 win32gui
