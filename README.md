@@ -59,7 +59,7 @@ If the bot starts but does not function correctly, recalibrate the regions and p
 
 Refer to the image below for a step-by-step guide:
 
-![Calibration Guide](README_img\how_to_cali.png)
+![Calibration Guide](https://github.com/NapoII/Rust-Sell-Bot/blob/main/README_img/how_to_cali.png)
 
 
 
